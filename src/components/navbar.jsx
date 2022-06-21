@@ -3,7 +3,14 @@ import React, { Component } from 'react'
 export default class NavBar extends Component {
   
     render() { 
-        return ();
+        return (
+           <nav className=''>
+                <button className=''>
+
+                </button>
+           </nav> 
+
+        );
     }
 }
  

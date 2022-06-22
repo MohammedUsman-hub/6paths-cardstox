@@ -6,7 +6,7 @@ export default class HeaderImg extends Component {
     render() { 
         return (
             <div>
-                 <img id='mj-rookie' src={jordanRookie}></img>
+                 <img src={jordanRookie} alt="" id="mj-rookie"></img>
             </div>
            
         );

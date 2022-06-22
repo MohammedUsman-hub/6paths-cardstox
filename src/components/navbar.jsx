@@ -7,7 +7,7 @@ export default class NavBar extends Component {
         return (
            <nav>
             <img src={logo} alt="" />
-            <button >Start</button>
+            <button >Start Buying</button>
             <h3>6 Paths CardStox</h3>
            </nav>
         );

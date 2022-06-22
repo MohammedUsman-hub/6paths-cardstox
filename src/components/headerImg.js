@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import jordanRookie from "../images/mj-rookie.jpg"
-
+import "../index.css"
 
 export default class HeaderImg extends Component {
-
     render() { 
         return (
-            <img id='mj-rookie' src={jordanRookie}></img>
+            <div>
+                 <img id='mj-rookie' src={jordanRookie}></img>
+            </div>
+           
         );
     }
 }

@@ -4,12 +4,14 @@ import "../index.css"
 //import bg1 from "../images/stock-wallpaper-2.jpg"  <img src={bg1} alt="" ></img>
 
 
-export default class HeaderImg extends Component {
+export default class Jordan extends Component {
     render() { 
         return (
-            <div>   
+            <div  className='mj-rookie'>   
                  <img src={jordanRookie} alt="" ></img>   
             </div>
+
+            
            
         );
     }

@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import HeaderImg from './components/headerImg';
+import Jordan from './components/headerImg';
 import NavBar from './components/navbar';
+import Mickey from './components/mickeyMantle';
+import Background1 from './components/background';
 
 export default class App extends Component {
     render() { 
         return (
             <div>
                 <NavBar/>
-                <HeaderImg/>
-                
+                <Background1/>
             </div>
             
         );
     }
 }
+/* <Jordan/> <Mickey/> */

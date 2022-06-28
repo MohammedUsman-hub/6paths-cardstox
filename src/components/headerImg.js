@@ -3,12 +3,21 @@ import jordanRookie from "../images/mj-rookie.jpg"
 import "../index.css"
 //import bg1 from "../images/stock-wallpaper-2.jpg"  <img src={bg1} alt="" ></img>
 
+const jordanStyling = {
+    width: "10%",
+    position: "relative",
+    bottom: "48pc",
+    left: "36%",
+    transform: 'rotate(-25deg)',
+}
+
+
 
 export default class Jordan extends Component {
     render() { 
         return (
-            <div  className='mj-rookie'>   
-                 <img src={jordanRookie} alt="" ></img>   
+            <div>   
+                 <img style={jordanStyling} src={jordanRookie} alt="" ></img>   
             </div>
 
             

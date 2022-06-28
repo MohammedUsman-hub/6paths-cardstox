@@ -10,9 +10,11 @@ export default class App extends Component {
             <div>
                 <NavBar/>
                 <Background1/>
+                <Jordan/> 
+                <Mickey/>
             </div>
             
         );
     }
 }
-/* <Jordan/> <Mickey/> */
+/*  */

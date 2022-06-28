@@ -7,7 +7,7 @@ export default class NavBar extends Component {
         return (
            <nav>
             <img src={logo} alt="" />
-            <button >Start Buying</button>
+            <button >Start</button>
             <ul className='nav-links'>
                 <li>Market</li>
                 <li>Your Collection</li>

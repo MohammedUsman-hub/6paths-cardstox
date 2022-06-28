@@ -22,13 +22,13 @@ nav{
 nav > button{
     text-align: center;
     position: relative;
-    left: 80%;
+    left: 85%;
     border-radius: 30px;
     width: 7%;
     height: 45px;
     background-color: #dad73e; /*#5f3ac7*/
     color: black;
-    font-size: 15px;
+    font-size: 18px;
 }
 nav > button:hover{
     cursor: pointer;
@@ -73,23 +73,16 @@ nav > ul{
 
 
 /* Background header */
-.bg{
-    opacity: 50%;
-   
+
+.bgH2{
+    color: "white";
+    position: relative;
+    bottom: "20pc";
+    font-size: "20px";
+}
+  
     
-}
-.mj-rookie{
-    max-width: 50px;
-    position: relative;
-    bottom: 60px;
-    left: 35%;
-}
-.mickey-rookie{
-    width: 10%;
-    position: relative;
-    bottom: 60px;
-    left: 40%;
-}
+
 #logo{
     width: 9%;
     position: relative;

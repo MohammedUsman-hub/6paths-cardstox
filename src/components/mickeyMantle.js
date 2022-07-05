@@ -8,7 +8,7 @@ const mickeyStyling = {
     position: 'fixed',
     position: 'relative',
     bottom: '71pc',
-    left: '51%',
+    left: '54%',
     transform: 'rotate(25deg)',
     
 }

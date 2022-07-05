@@ -9,9 +9,6 @@ html, body{
 
 
 /* NavBar */
-
-
-
 .button-1{
     text-align: center;
     position: relative;
@@ -62,32 +59,45 @@ html, body{
 
 
 
+
+
+
 /* Background header */
 
 .bgH2{
-    color: white;
+    color: rgb(255, 162, 0);
     position: relative;
-    bottom: 22pc;
     font-size: 50px;
-    left: 12%;
+    bottom: 72pc;
+    left: 27%;
     padding: 0px, 0px, 0px, 0px;
 }
 
-.bgH5{
-    color: white;
+.bgH3{
+    color: rgb(255, 162, 0);
     position: relative;
-    bottom: 22pc;
-    font-size: 50px;
-    left: 12%;
+    bottom: 73pc;
+    font-size: 40px;
+    left: 33%;
     padding: 0px, 0px, 0px, 0px;
 }
   
-    
-
-#logo{
-    width: 9%;
+.button-2{
+    text-align: center;
     position: relative;
-    bottom: 990px;
-    right: 19%;
-    opacity: 90%;
+    left: 43%;
+    bottom: 73pc;
+    border-radius: 30px;
+    width: 15%;
+    height: 45px;
+    color: white;
+    font-size: 19px;
+    background-color:  #7a5edd;  /*#5f3ac7#605ad1;*/
+    transition: 0.5s;
+}
+.button-2:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 162, 0);
+   
 }

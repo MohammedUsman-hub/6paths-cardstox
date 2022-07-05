@@ -4,9 +4,9 @@ import "../index.css"
 
 
 const bgStyling ={
-    opacity: '50%',
+    opacity: '40%',
     width: '100%',
-    height: "50pc",
+    height: "52pc",
     paddingbottm:'3000px',
 };
 

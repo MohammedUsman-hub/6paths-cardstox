@@ -7,7 +7,7 @@ const jordanStyling = {
     width: "10%",
     position: "relative",
     bottom: "51pc",
-    left: "36%",
+    left: "39%",
     transform: 'rotate(-25deg)',
 }
 

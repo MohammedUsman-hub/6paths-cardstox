@@ -3,6 +3,11 @@ import Jordan from './components/headerImg';
 import NavBar from './components/navbar';
 import Mickey from './components/mickeyMantle';
 import Background1 from './components/background';
+import TitleText from './components/titleText';
+
+
+
+
 
 export default class App extends Component {
     render() { 
@@ -12,6 +17,7 @@ export default class App extends Component {
                 <NavBar/>
                 <Jordan/> 
                 <Mickey/>
+                <TitleText/>
             </div>
             
         );

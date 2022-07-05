@@ -4,7 +4,7 @@ import NavBar from './components/navbar';
 import Mickey from './components/mickeyMantle';
 import Background1 from './components/background';
 import TitleText from './components/titleText';
-
+import Background2 from './components/backgorund2';
 
 
 
@@ -18,6 +18,7 @@ export default class App extends Component {
                 <Jordan/> 
                 <Mickey/>
                 <TitleText/>
+                <Background2/>
             </div>
             
         );

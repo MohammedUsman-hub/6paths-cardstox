@@ -7,7 +7,7 @@ const bgStyling ={
     opacity: '40%',
     width: '100%',
     height: "52pc",
-    paddingbottm:'3000px',
+    
 };
 
 export default class Background1 extends Component {

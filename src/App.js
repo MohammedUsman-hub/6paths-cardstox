@@ -8,8 +8,8 @@ export default class App extends Component {
     render() { 
         return (
             <div>
-                <NavBar/>
                 <Background1/>
+                <NavBar/>
                 <Jordan/> 
                 <Mickey/>
             </div>

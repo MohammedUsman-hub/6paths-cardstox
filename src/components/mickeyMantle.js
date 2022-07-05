@@ -5,10 +5,12 @@ import "../index.css"
 
 const mickeyStyling = {
     width: '10%',
+    position: 'fixed',
     position: 'relative',
     bottom: '68pc',
     left: '51%',
     transform: 'rotate(25deg)',
+    
 }
 
 

@@ -7,7 +7,7 @@ const bgStyling ={
     opacity: '50%',
     width: '100%',
     height: "50pc",
-   
+    paddingbottm:'3000px',
 };
 
 export default class Background1 extends Component {
@@ -16,6 +16,8 @@ export default class Background1 extends Component {
         return (
             <div>
                 <img style={bgStyling} src={backgroundImg1}></img>
+
+               
             </div>
 
 

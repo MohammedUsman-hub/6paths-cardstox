@@ -66,7 +66,7 @@ nav > ul{
 .nav-links li:hover{
     cursor: pointer;
     color: #dad73e;
-    
+     
 }
 
 
@@ -75,10 +75,21 @@ nav > ul{
 /* Background header */
 
 .bgH2{
-    color: "white";
+    color: white;
     position: relative;
-    bottom: "20pc";
-    font-size: "20px";
+    bottom: 22pc;
+    font-size: 50px;
+    left: 12%;
+    padding: 0px, 0px, 0px, 0px;
+}
+
+.bgH5{
+    color: white;
+    position: relative;
+    bottom: 22pc;
+    font-size: 50px;
+    left: 12%;
+    padding: 0px, 0px, 0px, 0px;
 }
   
     

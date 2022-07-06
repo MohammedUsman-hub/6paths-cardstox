@@ -101,3 +101,47 @@ html, body{
     background-color: rgb(255, 162, 0);
    
 }
+
+
+
+/* div 2 */
+#curry{
+    position: relative;
+    bottom: 115pc;
+    left: 10%;
+    width: 30%;
+}
+
+#curry-h3{
+    background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 135pc;
+    left: 60%;
+    font-size: 40px;
+}
+#curry-h3-1{
+    background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 135pc;
+    left: 59%;
+    font-size: 40px;
+}
+#ruth{
+    position: relative;
+    bottom: 132pc;
+    left: 68%;
+    width: 15%;
+}
+#ruth-h2{
+    background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: 150pc;
+    left: 10%;
+    font-size: 40px;
+}

@@ -5,7 +5,8 @@ import Mickey from './components/mickeyMantle';
 import Background1 from './components/background';
 import TitleText from './components/titleText';
 import Background2 from './components/backgorund2';
-
+import Curry from './components/curry';
+import Ruth from './components/babe';
 
 
 
@@ -19,6 +20,8 @@ export default class App extends Component {
                 <Mickey/>
                 <TitleText/>
                 <Background2/>
+                <Curry/>
+                <Ruth/>
             </div>
             
         );

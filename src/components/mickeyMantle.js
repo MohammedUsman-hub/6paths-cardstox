@@ -10,10 +10,8 @@ const mickeyStyling = {
     bottom: '71pc',
     left: '54%',
     transform: 'rotate(25deg)',
-    
 }
-
-
+ 
 
 export default class Mickey extends Component {
     

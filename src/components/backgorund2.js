@@ -8,7 +8,7 @@ const bg2Styling ={
     width: '100%',
     height: "60pc",
     position: 'relative',
-    bottom: '1000px',
+    bottom: '1030px',
 };
 
 export default class Background2 extends Component {
@@ -17,7 +17,7 @@ export default class Background2 extends Component {
         return (
             <div>
                 <img style={bg2Styling} src={backgroundImg1}></img>
-                <h2>A Market For Both Raw And Graded</h2>
+                
             </div>
 
 

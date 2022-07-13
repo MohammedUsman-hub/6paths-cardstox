@@ -9,6 +9,9 @@ const bg2Styling ={
     height: "60pc",
     position: 'relative',
     bottom: '1030px',
+    display: "block",
+    padding: "0px, 0px, 0px, 0px",
+    margin: "0px, 0px, 0px, 0px",
 };
 
 export default class Background2 extends Component {

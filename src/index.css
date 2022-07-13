@@ -117,6 +117,7 @@ html, body{
     width: 30%;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
+    display: block;
 }
 
 
@@ -147,6 +148,7 @@ html, body{
     width: 15%;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
+    display: block;
 }
 #ruth-h2{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
@@ -156,4 +158,16 @@ html, body{
     bottom: 150pc;
     left: 10%;
     font-size: 40px;
+}
+
+
+
+
+/* Div 3 */
+#price{
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
+    position: relative;
+    width: 50px;
+    height: 50px;
 }

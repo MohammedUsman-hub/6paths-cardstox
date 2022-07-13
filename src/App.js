@@ -7,6 +7,7 @@ import TitleText from './components/titleText';
 import Background2 from './components/backgorund2';
 import Curry from './components/curry';
 import Ruth from './components/babe';
+import Price from './components/pricing';
 
 
 
@@ -22,6 +23,7 @@ export default class App extends Component {
                 <Background2/>
                 <Curry/>
                 <Ruth/>
+                
             </div>
             
         );

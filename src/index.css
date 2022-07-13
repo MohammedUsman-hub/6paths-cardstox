@@ -5,6 +5,7 @@ html, body{
     padding: 0px;
     overflow-x: hidden;
     background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
 }
 
 
@@ -71,6 +72,7 @@ html, body{
     bottom: 72pc;
     left: 27%;
     padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
 
 .bgH3{
@@ -80,6 +82,7 @@ html, body{
     font-size: 40px;
     left: 33%;
     padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
   
 .button-2{
@@ -94,6 +97,8 @@ html, body{
     font-size: 19px;
     background-color:  #7a5edd;  /*#5f3ac7#605ad1;*/
     transition: 0.5s;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
 .button-2:hover{
     cursor: pointer;
@@ -110,6 +115,8 @@ html, body{
     bottom: 115pc;
     left: 10%;
     width: 30%;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
 
 
@@ -121,6 +128,8 @@ html, body{
     bottom: 135pc;
     left: 60%;
     font-size: 40px;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
 #curry-h3-1{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
@@ -136,6 +145,8 @@ html, body{
     bottom: 132pc;
     left: 68%;
     width: 15%;
+    padding: 0px, 0px, 0px, 0px;
+    margin: 0px, 0px, 0px, 0px;
 }
 #ruth-h2{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);

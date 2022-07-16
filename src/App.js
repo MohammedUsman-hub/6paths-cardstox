@@ -23,7 +23,7 @@ export default class App extends Component {
                 <Background2/>
                 <Curry/>
                 <Ruth/>
-                
+                <Price/>
             </div>
             
         );

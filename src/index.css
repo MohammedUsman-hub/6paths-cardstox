@@ -164,10 +164,85 @@ html, body{
 
 
 /* Div 3 */
-#price{
+#price-h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #000000;
+    position: relative;
+    font-size: 60px;
+    color: #000000;
+    -webkit-text-stroke: 0.3vw #000000;
+    text-transform: uppercase;
+    bottom: 132pc;
+}
+
+#price-h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 44.9%;
+    width: 0;
+    color: #00eaff;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #00eaff;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate 
+{
+    0%, 10%, 10%
+    {
+        width: 0%;
+    }
+    70%, 90%
+    {
+        width: 50%;
+    }
+}
+
+
+
+#no-fee{
+    color: white;
+    font-size: 3pc;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 125pc;
+    left: 37%;
+}
+
+#sign-up{
+    color: white;
+    font-size: 3pc;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 123pc;
+    left: 37%;
+}
+
+
+#price-button{
+    text-align: center;
+    position: relative;
+    left: 43%;
+    bottom: 117pc;
+    border-radius: 30px;
+    width: 15%;
+    height: 45px;
+    color: black;
+    font-size: 19px;
+    background-color:  #97dd5e;  /*#5f3ac7#605ad1;*/
+    transition: 0.5s;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
-    position: relative;
-    width: 50px;
-    height: 50px;
+}
+#price-button:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: #00eaff;
 }

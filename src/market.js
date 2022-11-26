@@ -9,7 +9,7 @@ export default function Market(props){
         <div className='contacts'>
             <div className='contact-card'>
                 <img src={props.img}></img>
-                <h3>{props.name}</h3>
+                <p><b>{props.name}</b></p>
             </div>
 
             <div className='info-group'>

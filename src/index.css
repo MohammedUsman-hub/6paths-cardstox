@@ -264,7 +264,7 @@ html, body{
     flex-direction: column;
     padding: 13px;
     padding-bottom: 20px;
-
+    color: #006aff;
   }
   
   .contact-card > img{
@@ -275,7 +275,7 @@ html, body{
     object-fit: cover;
   }
   
-  .contact-card > h3{
+  .contact-card > p{
     font-weight: 700;
     font-size: 18px;
   }
@@ -286,8 +286,8 @@ html, body{
   }
   
   .info-group > img {
-    height: 50px;
-    margin-right: 8px;
+    height: 35px;
+
   }
   
   .info-group > p{

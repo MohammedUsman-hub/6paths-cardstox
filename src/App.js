@@ -8,7 +8,11 @@ import Background2 from './components/backgorund2';
 import Curry from './components/curry';
 import Ruth from './components/babe';
 import Price from './components/pricing';
+import Market from './market.js'
 
+import Luka from './images/luka.jpg'
+import RArrow from './images/redArrow.png'
+import greenArrow from './images/greenArrow.png'
 
 
 export default class App extends Component {
@@ -24,6 +28,14 @@ export default class App extends Component {
                 <Curry/>
                 <Ruth/>
                 <Price/>
+
+                <Market
+                    img={Luka}
+                    name="Luka Donic 2018 Prizm RC PSA 10"
+                    arrow={greenArrow}
+                    price="£1000"
+                />
+                
             </div>
             
         );

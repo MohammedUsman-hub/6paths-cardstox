@@ -17,7 +17,7 @@ export default function Market(props){
             </div>
 
             <div className='info-group'>
-                <p src={props.price}></p>
+                <p>{props.price}</p>
             </div>
         </div>
     )

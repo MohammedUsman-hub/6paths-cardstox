@@ -264,11 +264,16 @@ html, body{
     flex-direction: column;
     padding: 13px;
     padding-bottom: 20px;
+    background-color: #1a1a1c;
     color: #006aff;
+  }
+  .contact-card:hover{
+    background-color: #9e9ec0;
+    
   }
   
   .contact-card > img{
-    width: 100%;
+    width: 80%;
     height: auto;
     align-self: center;
     border-radius: 5px;
@@ -286,12 +291,17 @@ html, body{
   }
   
   .info-group > img {
-    height: 35px;
-
+    height: 30px;
+    position: relative;
+    top: 46%;
+    right: 220px;
   }
   
   .info-group > p{
     margin-block: 3px;
-    font-size: 12px;
-    color: #ff0000;
+    font-size: 20px;
+    color: #3cff00;
+    position: relative;
+    top: 185px;
+    right: 240px;
   }

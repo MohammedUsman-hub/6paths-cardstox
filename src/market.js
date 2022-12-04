@@ -6,6 +6,7 @@ import "./index.css"
 
 export default function Market(props){
     return(
+       
         <div className='contacts'>
             <div className='contact-card'>
                 <img src={props.img}></img>
@@ -19,6 +20,7 @@ export default function Market(props){
             <div className='info-group'>
                 <p>{props.price}</p>
             </div>
-        </div>
+        </div> 
+        
     )
 }

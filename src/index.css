@@ -248,15 +248,17 @@ html, body{
 }
 
 
-
+/* RT price*/
 .contacts{
     display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
     gap: 40px;
+    position: relative;
+    bottom: 90pc;
+    flex-wrap: wrap;
   }
   
-  .contact-card{
+/* black border around the cards. RT price */
+.contact-card{
     flex-basis: 225px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0,25);
     border-radius: 10px;
@@ -267,12 +269,13 @@ html, body{
     background-color: #1a1a1c;
     color: #006aff;
   }
-  .contact-card:hover{
+
+.contact-card:hover{
     background-color: #9e9ec0;
-    
+    cursor: pointer;
   }
   
-  .contact-card > img{
+.contact-card > img{
     width: 80%;
     height: auto;
     align-self: center;
@@ -280,24 +283,25 @@ html, body{
     object-fit: cover;
   }
   
-  .contact-card > p{
+.contact-card > p{
     font-weight: 700;
     font-size: 18px;
   }
   
-  .info-group{
+.info-group{
     display: flex;
     align-items: center;
   }
-  
-  .info-group > img {
+
+/* arrow */
+.info-group > img {
     height: 30px;
     position: relative;
     top: 46%;
     right: 220px;
   }
   
-  .info-group > p{
+.info-group > p{
     margin-block: 3px;
     font-size: 20px;
     color: #3cff00;
@@ -305,3 +309,4 @@ html, body{
     top: 185px;
     right: 240px;
   }
+

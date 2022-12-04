@@ -14,6 +14,10 @@ import Luka from './images/luka.jpg'
 import RArrow from './images/redArrow.png'
 import greenArrow from './images/greenArrow.png'
 
+import cr7 from './images/cr7.png'
+import messi from './images/messi.jpeg'
+
+
 
 export default class App extends Component {
     render() { 
@@ -31,9 +35,15 @@ export default class App extends Component {
 
                 <Market
                     img={Luka}
-                    name="Luka Donic 2018 Prizm RC PSA 10"
+                    name="Luka Donic 2018 Prizm - PSA 10"
                     arrow={greenArrow}
                     price="£1000"
+                />
+                <Market
+                    img={cr7}
+                    name="Cristiano Ronaldo 2003 Panini Sports - PSA 10"
+                    arrow={RArrow}
+                    price="£25,000"
                 />
                 
             </div>

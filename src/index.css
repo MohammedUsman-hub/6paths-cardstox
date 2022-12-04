@@ -253,8 +253,9 @@ html, body{
     display:flex;
     gap: 40px;
     position: relative;
-    bottom: 90pc;
-    flex-wrap: wrap;
+    bottom: 71pc;
+    flex-wrap: wrap-reverse;
+    max-height: 0px;
   }
   
 /* black border around the cards. RT price */
@@ -267,7 +268,7 @@ html, body{
     padding: 13px;
     padding-bottom: 20px;
     background-color: #1a1a1c;
-    color: #006aff;
+    color: #ffae00;
   }
 
 .contact-card:hover{
@@ -304,9 +305,10 @@ html, body{
 .info-group > p{
     margin-block: 3px;
     font-size: 20px;
-    color: #3cff00;
+    color: #ffffff;
     position: relative;
     top: 185px;
     right: 240px;
   }
+
 

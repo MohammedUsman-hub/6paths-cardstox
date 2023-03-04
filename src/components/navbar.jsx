@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from "../images/logo.jpg"
+/*import logo from "../images/logo.jpg"*/
 
 
 export default class NavBar extends Component {

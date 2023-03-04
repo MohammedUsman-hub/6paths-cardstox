@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import backgroundImg1 from "../images/stock-wallpaper-1.jpg"
 import "../index.css"
 
 
@@ -19,7 +18,7 @@ export default class Background2 extends Component {
     render() { 
         return (
             <div>
-                <img style={bg2Styling} src={backgroundImg1}></img>
+                <img style={bg2Styling} src="./images/stock-wallpaper-1.jpg"></img>
                 
             </div>
 

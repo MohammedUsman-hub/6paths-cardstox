@@ -11,6 +11,7 @@ import Price from './components/pricing';
 import Market from './market.js'
 
 import data from "./data"
+import CardSpace from './cardSpace';
 
 
 
@@ -19,7 +20,7 @@ import data from "./data"
 export default function App(){
     const Datajs = data.map(item => {
         return(
-            <Market
+            <CardSpace
                 key={item.id}
                 item={item}
             />
@@ -36,7 +37,9 @@ export default function App(){
                 <Curry/>
                 <Ruth/>
                 <Price/>
-                
+                <section>
+                    {Datajs}
+                </section>
             </div>
             
         );

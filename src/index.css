@@ -251,23 +251,20 @@ html, body{
 /* RT price*/
 .contacts{
     display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    overflow-x: auto;
-    
+    flex: 0 0 auto;
+    flex-direction: column;
     position: relative;
     bottom: 100pc;
   }
   
 /* black border around the cards. RT price */
 .contact-card{
-    flex-basis: 225px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0,25);
+   
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 13px;
-    padding-bottom: 20px;
+    padding: 0px 0px 0px 0px;
+ 
     background-color: #1a1a1c;
     color: #ffae00;
     
@@ -280,7 +277,7 @@ html, body{
   }
   
 .contact-card > img{
-    width: 90%;
+    width: 10%;
     height: auto;
     align-self: center;
     border-radius: 15px;

@@ -251,10 +251,10 @@ html, body{
 /* RT price*/
 .contacts{
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    flex-direction: row;
-    flex: 0 0 auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    
     position: relative;
     bottom: 100pc;
   }
@@ -270,6 +270,7 @@ html, body{
     padding-bottom: 20px;
     background-color: #1a1a1c;
     color: #ffae00;
+    
   }
 
 .contact-card:hover{
@@ -285,10 +286,7 @@ html, body{
     border-radius: 15px;
   }
   
-.contact-card > p{
-    font-weight: 700;
-    font-size: 18px;
-  }
+
   
 .info-group{
     display: flex;

@@ -10,15 +10,9 @@ export default function Market(props){
         <div className='contacts'>
             <div className='contact-card'>
                 <img src={props.img}></img>
-                <p><b>{props.cardName}</b></p>
-            </div>
-
-            <div className='info-group'>
-                <img src={props.arrow}></img>
-            </div>
-
-            <div className='info-group'>
-                <p>{props.price}</p>
+                <p className='info-group'><b>{props.cardName}</b></p>
+                <img className='info-group' src={props.arrow}></img>
+                <p className='info-group'>{props.price}</p>
             </div>
         </div> 
         

@@ -250,14 +250,13 @@ html, body{
 
 /* RT price*/
 .contacts{
-    display:flex;
-    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    flex-direction: row;
+    flex: 0 0 auto;
     position: relative;
     bottom: 100pc;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-
-
   }
   
 /* black border around the cards. RT price */
@@ -306,14 +305,14 @@ html, body{
   }
   
 /* text on cards */
-.info-group-title{
+.info-group-title{ /* Card name */
     margin-block: 3px;
     font-size: 15px;
     position: relative;
     left: 10%;
   }
 
-  .info-group-price{
+  .info-group-price{ /* Price */
     margin-block: 20px;
     font-size: 15px;
     position: relative;

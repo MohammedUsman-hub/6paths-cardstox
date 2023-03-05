@@ -8,7 +8,7 @@ import Background2 from './components/backgorund2';
 import Curry from './components/curry';
 import Ruth from './components/babe';
 import Price from './components/pricing';
-import Market from './market.js'
+
 
 import data from "./data"
 import CardSpace from './cardSpace';

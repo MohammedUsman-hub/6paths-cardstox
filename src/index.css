@@ -253,9 +253,11 @@ html, body{
     display:flex;
     gap: 40px;
     position: relative;
-    bottom: 71pc;
-    flex-wrap: wrap-reverse;
-    max-height: 0px;
+    bottom: 100pc;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+
   }
   
 /* black border around the cards. RT price */
@@ -274,14 +276,14 @@ html, body{
 .contact-card:hover{
     background-color: #9e9ec0;
     cursor: pointer;
+    color: #144100;
   }
   
 .contact-card > img{
-    width: 80%;
+    width: 90%;
     height: auto;
     align-self: center;
-    border-radius: 5px;
-    object-fit: cover;
+    border-radius: 15px;
   }
   
 .contact-card > p{
@@ -294,21 +296,29 @@ html, body{
     align-items: center;
   }
 
+/* features on cards */
 /* arrow */
-.info-group > img {
+.arrow {
     height: 30px;
     position: relative;
-    top: 46%;
-    right: 220px;
+    top: 55%;
+    left: 30%;
   }
   
-.info-group > p{
+/* text on cards */
+.info-group-title{
     margin-block: 3px;
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 15px;
     position: relative;
-    top: 185px;
-    right: 240px;
+    left: 10%;
+  }
+
+  .info-group-price{
+    margin-block: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    right: 35%;
   }
 
 

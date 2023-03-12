@@ -307,12 +307,12 @@ html, body{
     left: 10%;
   }
 
-  .info-group-price{ /* Price */
-    margin-block: 20px;
+.info-group-price{ /* Price */
     font-size: 15px;
     position: relative;
     top: 30px;
     right: 35%;
-  }
+    margin-block: 20px;
+}
 
 

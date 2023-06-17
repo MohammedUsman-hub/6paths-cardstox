@@ -14,7 +14,7 @@ html, body{
     text-align: center;
     position: relative;
     left: 90%;
-    bottom: 775px;
+    bottom: 49pc;
     border-radius: 30px;
     width: 7%;
     height: 45px;
@@ -27,25 +27,17 @@ html, body{
     cursor: pointer;
     color: rgb(6, 234, 255);
    
-}
-
-
-
-
-
-
-    
+}    
 .nav-links{
     list-style: none;
     color: white;
     font-size: 20px;
     justify-content: space-between;
     position: relative;
-    bottom: 52pc;
+    bottom: 53pc;
   
 
 }
-
 .nav-links li{
     display: inline-block;
     padding: 0px 20px;
@@ -64,20 +56,20 @@ html, body{
 
 
 /* Background header */
-
 .bgH2{
     color: rgb(255, 162, 0);
-    position: relative;
+    position: absolute;
     font-size: 50px;
     bottom: 72pc;
     left: 27%;
+    bottom: 40%;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
 }
 
 .bgH3{
     color: rgb(255, 162, 0);
-    position: relative;
+    position: absolute;
     bottom: 73pc;
     font-size: 40px;
     left: 33%;
@@ -87,7 +79,7 @@ html, body{
   
 .button-2{
     text-align: center;
-    position: relative;
+    position: absolute;
     left: 43%;
     bottom: 73pc;
     border-radius: 30px;
@@ -111,7 +103,7 @@ html, body{
 
 /* div 2 */
 #curry{
-    position: relative;
+    position: absolute;
     bottom: 115pc;
     left: 10%;
     width: 30%;
@@ -125,7 +117,7 @@ html, body{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: relative;
+    position: absolute;
     bottom: 135pc;
     left: 60%;
     font-size: 40px;
@@ -136,13 +128,13 @@ html, body{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: relative;
+    position: absolute;
     bottom: 135pc;
     left: 59%;
     font-size: 40px;
 }
 #ruth{
-    position: relative;
+    position: absolute;
     bottom: 132pc;
     left: 68%;
     width: 15%;
@@ -154,7 +146,7 @@ html, body{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    position: relative;
+    position: absolute;
     bottom: 150pc;
     left: 10%;
     font-size: 40px;
@@ -170,7 +162,7 @@ html, body{
     align-items: center;
     
     background-color: #000000;
-    position: relative;
+    position: absolute;
     font-size: 60px;
     color: #000000;
     -webkit-text-stroke: 0.3vw #000000;
@@ -210,7 +202,7 @@ html, body{
     font-size: 3pc;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    position: relative;
+    position: absolute;
     bottom: 125pc;
     left: 37%;
 }
@@ -220,7 +212,7 @@ html, body{
     font-size: 3pc;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-    position: relative;
+    position: absolute;
     bottom: 123pc;
     left: 37%;
 }
@@ -228,7 +220,7 @@ html, body{
 
 #price-button{
     text-align: center;
-    position: relative;
+    position: absolute;
     left: 43%;
     bottom: 117pc;
     border-radius: 30px;
@@ -253,7 +245,7 @@ html, body{
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     bottom: 100pc;
   }
   
@@ -294,7 +286,7 @@ html, body{
 /* arrow */
 .arrow {
     height: 30px;
-    position: relative;
+    position: absolute;
     top: 55%;
     left: 30%;
   }
@@ -303,13 +295,13 @@ html, body{
 .info-group-title{ /* Card name */
     margin-block: 3px;
     font-size: 15px;
-    position: relative;
+    position: absolute;
     left: 10%;
   }
 
 .info-group-price{ /* Price */
     font-size: 15px;
-    position: relative;
+    position: absolute;
     top: 30px;
     right: 35%;
     margin-block: 20px;

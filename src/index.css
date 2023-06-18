@@ -141,27 +141,26 @@ html, body{
 
 
 
-
+/* Pricing Section */
 #price-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    display: flex; 
     background-color: #000000;
     position: absolute;
     font-size: 60px;
     color: #000000;
     -webkit-text-stroke: 0.3vw #000000;
     text-transform: uppercase;
-    bottom: 132pc;
+    top: 25pc;
+    left: 45%;
+    width: 25%;
 }
 
 #price-h2::before{
     content: attr(data-text);
     position: absolute;
     top: 0;
-    left: 44.9%;
-    width: 0;
+    left: 0%;
+    width: 10px;
     color: #00eaff;
     -webkit-text-stroke: 0vw #383d52;
     border-right: 2px solid #00eaff;
@@ -189,7 +188,7 @@ html, body{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     position: absolute;
-    bottom: 125pc;
+    bottom: 15pc;
     left: 37%;
 }
 
@@ -199,7 +198,7 @@ html, body{
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     position: absolute;
-    bottom: 123pc;
+    bottom: 13pc;
     left: 37%;
 }
 
@@ -208,7 +207,7 @@ html, body{
     text-align: center;
     position: absolute;
     left: 43%;
-    bottom: 117pc;
+    bottom: 17pc;
     border-radius: 30px;
     width: 15%;
     height: 45px;

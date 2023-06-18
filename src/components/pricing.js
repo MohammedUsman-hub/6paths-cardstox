@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 
+const priceDiv={
+    position: 'relative',
+}
+
 class Price extends Component {
 
     render() { 
         return (
-            <div>
+            <div stlying={priceDiv}>
                 <h2 
                 data-text="Pricing" id='price-h2'>
                     Pricing

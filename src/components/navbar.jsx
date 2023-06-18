@@ -6,7 +6,6 @@ export default class NavBar extends Component {
     render() { 
         return (
            <nav className='navbar'>
-                <button className='button-1'>Start</button>
                 <ul className='nav-links'>
                    
                     <li>Market</li>

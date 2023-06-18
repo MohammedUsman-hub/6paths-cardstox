@@ -19,7 +19,7 @@ html, body{
     padding: 2%;
    
 }
-.button-1{
+/*.button-1{
     text-align: center;
     position: absolute;
     left: 85%;
@@ -29,9 +29,9 @@ html, body{
     height: 45px;
     color: white;
     font-size: 19px;
-    background-image: linear-gradient(to right, #7a5edd 0%, #402dbd 51%, #290ce8 100%);  /*#5f3ac7#605ad1;*/
+    background-image: linear-gradient(to right, #7a5edd 0%, #402dbd 51%, #290ce8 100%);  #5f3ac7#605ad1;
     transition: 0.5s;
-}
+}*/
 .button-1:hover{
     cursor: pointer;
     color: black;

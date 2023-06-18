@@ -109,7 +109,9 @@ html, body{
 
 
 
-
+.curry-div{
+    position: relative;
+}
 #curry{
     position: absolute;
     bottom: 115pc;
@@ -119,8 +121,6 @@ html, body{
     margin: 0px, 0px, 0px, 0px;
     display: block;
 }
-
-
 #curry-h3{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
     -webkit-background-clip: text;
@@ -140,6 +140,9 @@ html, body{
     bottom: 135pc;
     left: 59%;
     font-size: 40px;
+}
+.ruth-div{
+    position: relative;
 }
 #ruth{
     position: absolute;

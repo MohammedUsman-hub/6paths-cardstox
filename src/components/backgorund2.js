@@ -19,7 +19,6 @@ export default class Background2 extends Component {
         return (
             <div>
                 <img style={bg2Styling} src="./images/stock-wallpaper-1.jpg"></img>
-                
             </div>
 
 

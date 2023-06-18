@@ -5,7 +5,7 @@ import "../index.css"
 const jordanStyling = {
     width: "10%",
     position: "relative",
-    bottom: "51pc",
+    bottom: "46pc",
     left: "39%",
     transform: 'rotate(-25deg)',
 }

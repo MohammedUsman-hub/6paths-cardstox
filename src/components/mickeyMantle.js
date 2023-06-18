@@ -6,7 +6,7 @@ const mickeyStyling = {
     width: '10%',
     position: 'fixed',
     position: 'relative',
-    bottom: '71pc',
+    bottom: '66pc',
     left: '54%',
     transform: 'rotate(25deg)',
 }

@@ -180,7 +180,7 @@ html, body{
 }
 
 
-
+/* Pricing words and button */
 #no-fee{
     color: white;
     font-size: 3pc;
@@ -223,26 +223,28 @@ html, body{
     background-color: #00eaff;
 }
 
-/*
+
+
+
+
+/* Card displaying section */
 .contacts{
     display: flex;
     flex: 0 0 auto;
-    flex-direction: column;
-    position: absolute;
-    bottom: 100pc;
+    position: relative;
+    bottom: 10pc;
   }
   
 
 .contact-card{
-   
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 0px 0px 0px 0px;
- 
+    position: absolute;
     background-color: #1a1a1c;
     color: #ffae00;
-    
+    height: 100%;
+    width: 100%;
   }
 
 .contact-card:hover{
@@ -263,6 +265,7 @@ html, body{
 .info-group{
     display: flex;
     align-items: center;
+    position: absolute;
   }
 
 
@@ -272,8 +275,6 @@ html, body{
     top: 55%;
     left: 30%;
   }
-  
-
 .info-group-title{ 
     margin-block: 3px;
     font-size: 15px;
@@ -289,5 +290,5 @@ html, body{
     margin-block: 20px;
 }
 
-*/
- /*#5f3ac7#605ad1;*/
+/*
+ #5f3ac7#605ad1;*/

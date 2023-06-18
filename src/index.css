@@ -63,7 +63,7 @@ html, body{
 
 
 
-
+/* 1st Background Img */
 .titleTextStyle{
     position: relative;
     bottom: 67pc;
@@ -108,26 +108,23 @@ html, body{
 }
 
 
-
-.curry-div{
-    position: relative;
-}
+/* 2nd Background Img */
 #curry{
     position: absolute;
-    bottom: 115pc;
+    bottom: 90pc;
     left: 10%;
     width: 30%;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
-    display: block;
+    /*display: block;*/   
 }
 #curry-h3{
     background: -webkit-linear-gradient(#ddd6f3 ,#faaca8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    bottom: 135pc;
-    left: 50%;
+    bottom: 103pc;
+    left: 55%;
     font-size: 40px;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
@@ -137,16 +134,13 @@ html, body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    bottom: 135pc;
-    left: 59%;
+    bottom: 95pc;
+    left: 52%;
     font-size: 40px;
-}
-.ruth-div{
-    position: relative;
 }
 #ruth{
     position: absolute;
-    bottom: 132pc;
+    bottom: 55pc;
     left: 68%;
     width: 15%;
     padding: 0px, 0px, 0px, 0px;
@@ -158,7 +152,7 @@ html, body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    bottom: 150pc;
+    bottom: 70pc;
     left: 10%;
     font-size: 40px;
 }

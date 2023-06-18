@@ -13,7 +13,7 @@ html, body{
 .navbar{
     display: flex;
     position: relative;
-    top: 0px;
+    bottom: 0px;
     width: 100%;
     height: 100%;
     padding: 2%;
@@ -22,7 +22,7 @@ html, body{
 .button-1{
     text-align: center;
     position: absolute;
-    left: 90%;
+    left: 85%;
     bottom: 49pc;
     border-radius: 30px;
     width: 7%;
@@ -43,7 +43,8 @@ html, body{
     font-size: 20px;
     justify-content: space-between;
     position: absolute;
-    
+    left: 1%;
+    bottom: 49pc;
   
 
 }
@@ -61,10 +62,10 @@ html, body{
 
 
 
+/*
 
 
 
-/* Background header */
 .bgH2{
     color: rgb(255, 162, 0);
     position: absolute;
@@ -96,7 +97,7 @@ html, body{
     height: 45px;
     color: white;
     font-size: 19px;
-    background-color:  #7a5edd;  /*#5f3ac7#605ad1;*/
+    background-color:  #7a5edd; 
     transition: 0.5s;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
@@ -110,7 +111,7 @@ html, body{
 
 
 
-/* div 2 */
+
 #curry{
     position: absolute;
     bottom: 115pc;
@@ -164,7 +165,7 @@ html, body{
 
 
 
-/* Div 3 */
+
 #price-h2{
     display: flex;
     justify-content: center;
@@ -237,7 +238,7 @@ html, body{
     height: 45px;
     color: black;
     font-size: 19px;
-    background-color:  #97dd5e;  /*#5f3ac7#605ad1;*/
+    background-color:  #97dd5e;  
     transition: 0.5s;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
@@ -249,7 +250,6 @@ html, body{
 }
 
 
-/* RT price*/
 .contacts{
     display: flex;
     flex: 0 0 auto;
@@ -258,7 +258,7 @@ html, body{
     bottom: 100pc;
   }
   
-/* black border around the cards. RT price */
+
 .contact-card{
    
     border-radius: 10px;
@@ -291,8 +291,7 @@ html, body{
     align-items: center;
   }
 
-/* features on cards */
-/* arrow */
+
 .arrow {
     height: 30px;
     position: absolute;
@@ -300,15 +299,15 @@ html, body{
     left: 30%;
   }
   
-/* text on cards */
-.info-group-title{ /* Card name */
+
+.info-group-title{ 
     margin-block: 3px;
     font-size: 15px;
     position: absolute;
     left: 10%;
   }
 
-.info-group-price{ /* Price */
+.info-group-price{ 
     font-size: 15px;
     position: absolute;
     top: 30px;
@@ -316,4 +315,5 @@ html, body{
     margin-block: 20px;
 }
 
-
+*/
+ /*#5f3ac7#605ad1;*/

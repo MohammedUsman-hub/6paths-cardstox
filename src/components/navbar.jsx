@@ -8,6 +8,7 @@ export default class NavBar extends Component {
            <nav className='navbar'>
                 <button className='button-1'>Start</button>
                 <ul className='nav-links'>
+                   
                     <li>Market</li>
                     <li>Your Collection</li>
                     <li>About Us</li>

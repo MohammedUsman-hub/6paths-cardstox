@@ -7,7 +7,7 @@ const bg2Styling ={
     width: '100%',
     height: "60pc",
     position: 'relative',
-    bottom: '800px',
+    bottom: '62pc',
     display: "block",
     padding: "0px, 0px, 0px, 0px",
     margin: "0px, 0px, 0px, 0px",

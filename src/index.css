@@ -121,7 +121,7 @@ html, body{
 }
 #ruth{
     position: absolute;
-    bottom: 55pc;
+    bottom: 63pc;
     left: 68%;
     width: 15%;
     padding: 0px, 0px, 0px, 0px;
@@ -133,7 +133,7 @@ html, body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    bottom: 70pc;
+    bottom: 73pc;
     left: 10%;
     font-size: 40px;
 }
@@ -141,7 +141,7 @@ html, body{
 
 
 
-/*
+
 #price-h2{
     display: flex;
     justify-content: center;
@@ -225,7 +225,7 @@ html, body{
     background-color: #00eaff;
 }
 
-
+/*
 .contacts{
     display: flex;
     flex: 0 0 auto;

@@ -210,23 +210,19 @@ html, body{
     border-radius: 30px;
     width: 15%;
     height: 45px;
-    color: black;
+    color: white;
     font-size: 19px;
-    background-color:  #97dd5e;  
     transition: 0.5s;
     padding: 0px, 0px, 0px, 0px;
     margin: 0px, 0px, 0px, 0px;
+    background-color:  #7a5edd; 
+    transition: 0.5s;
 }
 #price-button:hover{
     cursor: pointer;
     color: rgb(0, 0, 0);
-    background-color: #00eaff;
+    background-color: rgb(225, 162, 0);
 }
-
-
-
-
-
 /* Card displaying section */
 .contacts{
     display: flex;
